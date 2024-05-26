@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Page</title>
+    <title>Glam Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -52,11 +52,20 @@
             background-color: #45a049;
         }
         .flex-cols {
-        font-size: 28px;
-        display: flex;
-        flex-direction: column;
-      }
-      
+            font-size: 28px;
+            display: flex;
+            flex-direction: column;
+        }
+        .forgot-password {
+            display: block;
+            margin-top: 10px;
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -70,6 +79,7 @@
             <input type="password" id="password" name="password" placeholder="Password" required>
             <input type="submit" value="Login">
         </form>
+        <a href="forget-password.html" class="forgot-password">Forgot Password?</a>
     </div>
 
     <script src="user.js"></script>
